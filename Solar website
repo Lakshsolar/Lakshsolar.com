@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laksh Solar </title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e6f2f1;
+      color: #114b5f;
+    }
+   header {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.unsplash.com/photo-1497440001374-f26997328c1b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29sYXIlMjBwYW5lbHxlbnwwfHwwfHx8MA%3D%3D') center/cover no-repeat;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      background-color: #004d40;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #80cbc4;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background-color: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .btn {
+      background-color: #26a69a;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #00796b;
+    }
+    .photos {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .photos img {
+      width: 240px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .photos img:hover {
+      transform: scale(1.05);
+    }
+    .partners {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+    .partners img {
+      height: 60px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    .testimonials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-large
+    }
+    .testimonial {
+      background-color: #e0f2f1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      flex: 1 1 45%;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .testimonial img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00796b;
+      flex-shrink: 0;
+    }
+    .testimonial-text {
+      flex-grow: 1;
+    }
+    .testimonial p {
+      font-style: italic;
+      margin: 0 0 8px 0;
+      color: #004d40;
+    }
+    .testimonial strong {
+      display: block;
+      color: #00796b;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+      .testimonials {
+        flex-direction: column;
+      }
+      .testimonial {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Laksh solar </h1>
+  <p>Your trusted solar energy partner in Gujarat</p>
+</header>
+
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#rates">Rates</a>
+  <a href="#partners">Partners</a>
+  <a href="#branches">Branches</a>
+  <a href="#benefits">Benefits</a>
+  <a href="#testimonials">Happy Customers</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="section" id="about">
+  <div class="card">
+    <h2>About Us</h2>
+    <p>We provide reliable solar solutions for businesses in Gandhinagar, Gujarat.
+	From rooftop installations to hybrid systems with battery backup, we help you save on your electricity bills with clean, renewable energy.
+	provideclear and easy-to-find Contact information,including phone number,email address,and physical address</p> 	
+    <p><strong>Office Location:</strong> 17,Arubuda complex,Mahakali Gate,Vijapur Highway,Mansa,Gandhinagar,382845
+  </div>
+</div>
+
+<div class="section" id="services">
+  <div class="card">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Commercial,hospital,hotels,Recidincial Rooftop Solar Installations</li>
+      <li>Battery Backup & Hybrid Systems</li>
+      <li>On-Grid and Off-Grid Solutions</li>
+      <li>Maintenance & AMC</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section" id="gallery">
+  <div class="card">
+    <h2>Solar Project Gallery</h2>
+    <div class="photos">
+      <img src="https://www.teriin.org/sites/default/files/inline-images/MicrosoftTeam.png" alt="Solar 1" />
+      <img src="https://media.istockphoto.com/id/1252816967/photo/solar-panel-green-energy-efficiency-for-house-roof.jpg?s=612x612&w=0&k=20&c=-v5mQB2kBhSG-HqWtDWCCCyE46aKOKQ34P52zzam8wA=" alt="Solar 2" />
+      <img src="https://cdn.shopify.com/s/files/1/0011/4102/files/grid-tie-solar-system-components.png?v=1636486347" alt="Solar 3" />
+	  <img src="https://img.saurenergy.com/2018/08/prime-minister-narendra.jpg" alt="Solar 4"/>
+	  <img src="https://en-media.thebetterindia.com/uploads/2025/04/Mervin-Feature-image-2025-04-08T121831.465-1744094922.jpg" alt="solar 5"/>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="rates">
+  <div class="card">
+    <h2>Kilowatt (kW) Rates</h2>
+    <p>Fixed pricing: ₹52,500kW (with government benefits and subsidies applied).</p>
+  </div>
+</div>
+
+<div class="section" id="partners">
+  <div class="card">
+    <h2>Our Global Partners</h2>
+    <div class="partners">
+      <img src="https://logotyp.us/file/adani.svg" alt="Partner Tesla" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeowa5zbxInhcOTU8PB3_FJ7i3RmlD9UpFLA&s" alt="Partner First Solar" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiOev2vgFYnVTA1GA6gYXw_6kQS6JLNbejPA&s" alt="Partner Sunrun" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7mzruy6t5g7Pr-7s1zON9kJPteS0MfF98qg&s" alt="Partner SunPower" />
+	  <img src="https://media.licdn.com/dms/image/v2/D4D0BAQFNcM0axSC0mA/company-logo_200_200/company-logo_200_200/0/1737093858583/rayzonsolar_logo?e=2147483647&v=beta&t=ZobT3xxjBldateWIRatW3INiBeBMJcxtFZzw6t6WOgE"alt="Partner First Solar" />
+	  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE5sSpevSqEDZG_i9nwJF3M8SxyxQB_NTJmw&s" alt="Partner First Solar" />
+	  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHNSKVaNl3asdN749mKUuQG0FxTp2SGfwSvQ&s" alt="Partner Sunrun" />
+    </div>
+  </div>
+</div>
+
+
+<div class="section" id="branches">
+  <div class="card">
+    <h2>Our Branches</h2>
+    <ul>
+      <li>Mota chiloda,Gandhinagar</li>
+      <li>Mansa,Gandhinagar</li
+    </ul>
+  </div>
+</div>
+
+<div class="section" id="benefits">
+  <div class="card">
+    <h2>Benefits of Going Solar</h2>
+    <ul>
+      <li>Government subsidies up to 60%</li>
+      <li>Zero electricity bills for 25+ years</li>
+      <li>Environmentally friendly & sustainable</li>
+      <li>Increases property value</li>
+	  <li>30 years of panel warnty</li>
+	  <li>10 years of inverter warnty </li>
+	  <li>5 years free service</li>
+	  <li> EASY EMI option available</li> 
+    </ul>
+  </div>
+</div>
+
+<div class="section" id="testimonials">
+  <div class="card">
+    <h2>Happy Customers</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="https://ik.imagekit.io/1711/WhatsApp%20Image%202025-05-26%20at%204.19.29%20PM.jpeg?updatedAt=1748256693670" alt="Happy Customer" width="300">
+        <div class="testimonial-text">
+          <p>"Very professional team and great service. My electricity bill is almost zero now!"</p>
+          <strong>- vishal Raval,Gandhinagar</strong>
+        </div>
+      </div>  
+      <div class="testimonial">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd-TrhI8gwtTrdtp4zHI6yVwEUt-EmGVE5DA&s"alt="Ms. Patel" />
+        <div class="testimonial-text">
+          <p>"Best pricing and quick installation. Highly recommended!"</p>
+          <strong>- Kripalsinh chavda,Ajol</strong> 
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="https://ik.imagekit.io/1711/customer1.jpg.jpeg?updatedAt=1748255744255" alt="Mr. Mehta" />
+        <div class="testimonial-text">
+          <p>"They helped me get the government subsidy too. Fantastic support."</p>
+          <strong>- MD patel,mansa</strong>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="https://ik.imagekit.io/1711/WhatsApp%20Image%202025-05-26%20at%204.13.41%20PM.jpeg?updatedAt=1748256300025" alt="Mrs. Joshi" />
+        <div class="testimonial-text">
+          <p>"Solar panels installed quickly with excellent customer service."</p>
+          <strong>- Alpesh pandya,Mansa </strong>
+ </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="Lakshsolar1711@gmail.com">Lakshsolar1711@gmail.com</a></p>
+    <p>Phone: +91 9537443033</p>
+    <p>Visit us: 17,Arubuda complex,Mahakali Gate ,Vijapur Highway,Mansa,Gandhinagar</p>
+  </div> 
+</div>
+
+<footer>
+  &copy; 2025 Laksh Solar Solutions. All rights reserved.
+</footer>
+
+</body>
+</html>
